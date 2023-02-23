@@ -1,0 +1,45 @@
+Instructions
+Create a file `styles.css`.
+Link it to our HTML project.
+Change the display of the navbar to make it inline.
+Change the font to roboto.
+Add classes attributes to HTML / HTML documents .
+Be creative !
+Hint: You can use the Internet to search for portfolio models.
+
+Unfortunately, as an AI language model, I am not able to directly create files or modify existing projects. However, I can provide you with the necessary steps to complete the task:
+
+Create a new file named styles.css in the same directory as your HTML file.
+In your HTML file, add the following line to link the stylesheet to your HTML document:
+bash
+Copy code
+<link rel="stylesheet" href="styles.css">
+To change the display of the navbar to inline, add the following code to your styles.css file:
+css
+Copy code
+nav {
+  display: inline;
+}
+To change the font to Roboto, add the following code to your styles.css file:
+css
+Copy code
+body {
+  font-family: 'Roboto', sans-serif;
+}
+Note that you will need to import the Roboto font into your HTML file. You can do this by adding the following code to the <head> section of your HTML file:
+perl
+Copy code
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+To add classes attributes to HTML documents, simply add the class attribute to the HTML tag that you want to apply the class to, like so:
+csharp
+Copy code
+<div class="my-class">This div has the class "my-class".</div>
+You can then define the styles for the class in your styles.css file, like so:
+css
+Copy code
+.my-class {
+  background-color: #F00;
+  color: #FFF;
+}
+As for being creative, the sky is the limit! You can experiment with different colors, fonts, layouts, and design elements to create a unique and eye-catching portfolio. Don't be afraid to try new things and think outside the box! And if you need inspiration, you can always search online for portfolio templates or examples.
